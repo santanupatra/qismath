@@ -1,0 +1,25 @@
+page-search-result {
+    .title span{display:block; font-size:1.4rem; font-weight:300; color:#000}
+	ion-header.header {border-bottom:1px solid #e1e1e1}
+	ion-header.header .button {border-radius: 0}
+	
+	
+	.filter-bar{background:#e7e7e7}
+	.filter-bar .button {border:0; box-shadow:none; margin:0}
+	.filter-bar .button img{width:17px; margin-right:6px}
+	.filter-bar ion-col:first-child {border-right:1px solid #e1e1e1;}
+	
+	.flex-wrapper .scroll-content{display:flex; flex-wrap:wrap; padding:6px;background-color:#ebebeb!important }
+	.product-holder{border:1px solid #ececec; box-shadow:none; width:47% !important; margin:1.5%!important}
+	.product-holder .img-holder{width:100%; height:170px; position: relative}
+	.product-holder .img-holder img{width: 100%;height: 100%;object-fit: cover;}
+	.product-holder .img-holder .fabourite{position: absolute; right:5px; top:5px; color:#414141}
+	.product-holder .card-content{padding:6px; border-top:1px solid #ececec;}
+	.product-holder .card-content:last-child{ border-top:0;}
+	.product-holder h6{font-weight: 300; font-size:1.1rem}
+	.product-holder h5{font-size:1.4rem}
+	.product-holder .txt{font-size:1.2rem; color:#5e5e5e}
+	.product-holder .model{color:#595959; font-size:1.15rem}
+	
+	.button-holder .button{box-shadow:none; font-size:1.15rem; height:2.4rem;  margin-top:0; margin-bottom:0}
+}

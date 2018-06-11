@@ -1,0 +1,16 @@
+page-cart {
+    .cart-item{border-bottom:1px solid #e1e1e1 !important}
+    .cart-item:last-child{border-bottom:1px solid #e1e1e1 !important}
+    .cart-item ion-thumbnail{height:110px; width:80px}
+    .cart-item ion-thumbnail img{height:100%; width:100%; object-fit: cover}
+    .cart-item .item-inner{border-bottom:0!important}
+    .cart-item h2{font-size:1.5rem; padding-right:30px}
+    .cart-item .label{position: relative;}
+    .cart-item .button{right: -2px; position: absolute; top:0; box-shadow: none}
+    .prod-band{text-transform: uppercase; font-weight: 300; color:#000; font-size:1.3rem; padding-right:30px}
+    .size{font-weight: 300; color:#000; font-size:1.3rem}
+    .size b{font-weight: 600;}
+    .plus-minus a{color:#222}
+    .total{color:#222; font-size:1.4rem}
+    .total b{font-weight: 600;}
+}

@@ -1,0 +1,128 @@
+<!--
+  Generated template for the PayNowPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only>
+        <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="search"></ion-icon>
+      </button>
+      <button ion-button icon-only>
+        <ion-icon name="cart"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <div class="toolbar-content toolbar-content-ios">
+      <ion-title class="title title-ios" style="">
+        <div class="toolbar-title toolbar-title-ios">Payment</div>
+      </ion-title>
+    </div>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <div>
+    <ion-segment [(ngModel)]="pet">
+      <ion-segment-button value="kittens">
+        <img class="credit-cards" src="assets/imgs/credit-card.png" alt="">
+        <!-- <img class="assets/imgs/credit-card.png" alt=""> -->
+         Credit Cards
+      </ion-segment-button>
+      <ion-segment-button value="puppies">
+        <img class="credit-cards" src="assets/imgs/paypal.png" alt="">
+         Paypal
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+  
+  <div padding [ngSwitch]="pet">
+    <ion-list *ngSwitchCase="'puppies'">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="img/thumbnail-puppy-1.jpg">
+        </ion-thumbnail>
+        <h2>Ruby</h2>
+      </ion-item>
+    </ion-list>
+  
+    <ion-list *ngSwitchCase="'kittens'">
+      <p>Credit Card</p>
+      <ion-item class="item-div" style="border-bottom:0 !important;">
+        <ion-input type="text" value="" placeholder="Card Number" ></ion-input>
+      </ion-item>
+
+        <ion-grid>
+          <ion-row>
+            <ion-col col-8>
+              <ion-item>
+                <h5>Credit Card</h5>
+                <p>The 3 or 4 digit security code on the front or back of your credit card</p>
+              </ion-item>
+            </ion-col>
+            <ion-col col-4>
+              <ion-item class="item-div" style="border-bottom:0 !important;">
+                <ion-input type="text" value="" placeholder="CCV"></ion-input>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col col-8>
+              <ion-item>
+                <h5>Expiry Date</h5>
+                <p>The 3 or 4 digit security code on the front or back of your credit card</p>
+              </ion-item>
+            </ion-col>
+            <ion-col col-4>
+              <ion-item class="item-div" style="border-bottom:0 !important;">
+                <ion-input type="text" value="" placeholder="MM/YY"></ion-input>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col col-8>
+              <ion-item>
+                <h5>Billing Zip/Postal Code</h5>
+                <p>The zip or postal code from the address registered for this card</p>
+              </ion-item>
+            </ion-col>
+            <ion-col col-4>
+              <ion-item class="item-div" style="border-bottom:0 !important;">
+                <ion-input type="text" value="" placeholder="Zip/Postal Code"></ion-input>
+              </ion-item>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        
+        <ion-item style="border:1px solid #e5e7e9; background: #f7f9fb;" padding>
+            <img src="assets/imgs/lock.png" alt="" item-start style="width:30px; margin-top:0;">
+            <h5>Expiry Date</h5>
+            <p>Trusted by over 300 million shoppers in 50 countries</p>
+          
+         
+        </ion-item>
+     
+    </ion-list>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar class="p-0">
+    <ion-grid class="p-0">
+      <ion-row>
+        <ion-col col-12 class="p-0">
+          <button ion-button block color="primary" class="text-uppercase mt-0 mb-0" style="color:#fff">Place order</button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>

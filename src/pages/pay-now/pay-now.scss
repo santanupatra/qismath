@@ -1,0 +1,45 @@
+page-pay-now {
+
+    .toolbar-title{ font-weight: 500 !important; color: #414141 !important;}
+    .header .toolbar-background{ border-bottom: 0;}
+    .bar-button ion-icon{ color: #414141 !important;}
+    .segment-ios .segment-button{ background-color: #eaecee; display: flex;
+    justify-content: center;
+    align-items: center; border: 0; height: 5rem; line-height: 5rem; color: #3b3b3b; font-size: 1.5rem;}
+    .segment-ios .segment-button.segment-activated{ background-color: #ffffff; color: #3b3b3b; }
+    .credit-cards{ width: 34px; height: auto; padding-right: 5px;}
+    .label{ margin-right: 0 !important; margin-top: 0;}
+    .item-div {padding-left: 0;}
+    .item {padding-left: 0; border: 0;}
+    .item.item-block .item-inner{padding-right: 0; border-bottom: 0;}
+    .list .item-div .item-inner { border: 1px solid #e5e7e9; border-radius: 3px; padding-right: 0; margin-bottom: 16px; padding-left: 10px;
+    .text-input {color: #9ea0a1;  font-size: 14px;}
+    .list > .item-block:last-child, .list > .item-wrapper:last-child .item-block{border-bottom: 0 !important;}
+    .credid-sec{ width: auto;}
+    .credid-sec h5.heading{ color: #191919 !important; font-size: 1.4rem !important;}
+    .credid-sec p{ color: #5f6061; font-size: 1.3rem;}
+    .text-input{ margin-right: 0;}
+    .secure-pay{ width: 35px !important;}
+    .secure-pay-area{ border:1px solid #e5e7e9;}
+    }
+
+
+
+
+    .shipping{width: auto;}
+//     .shipp { width: 100%; height: auto; overflow: hidden; border: solid 0px red;}
+//     .mb-10 {margin-bottom: 4px; clear: both;  width: 100%; display: block;font-weight: 600;  color: #191919;}
+//     .shipp .box { height: auto; overflow: hidden; border-radius: 3px !important; background: #f2f2f2;  border: solid 1px #e0e2e4; margin-bottom: 6px; padding: 4px 1px; font-size: 13px;}
+//     .row {  margin-bottom: 0px;}
+//     .shipp h4 { font-size: 14px;padding: 0; margin: 4px 0 2px !important; font-weight: 600; color: #191919;}
+//     .shipp p { font-size: 10px; padding: 0; margin-top: 0; color: #8ea6b4;}
+//     .shipp .box .text-input { margin-top: 5px; margin-bottom: 5px; width: calc(100% - 2px - 2px); margin-left: 3px; margin-right: 3px; font-size: 12px;}
+//     .secure-box { border: solid 1px #d3d3d3; background: #fdfdfd; border-radius: 3px; padding: 10px; overflow: hidden;margin: 10px 0px 40px 0px;}
+//   .secure-box .left-div { width: 50px; margin-right: 10px;  float: left;  height: 100%; overflow: hidden;}
+//    .secure-box .left-div img { width: 100%; height: auto; -o-object-fit: cover;  object-fit: cover;}
+//    .secure-box .right-div {width: calc(100% - 60px); float: left; height: auto;}
+//    .secure-box .right-div h4 {font-size: 14px; color: #191919; font-weight: 600; margin-bottom: 2px; margin-top: 5px;}
+//   .secure-box .right-div p { font-size: 10px; padding: 0; margin-top: 0; color: #8ea6b4;}
+
+}
+

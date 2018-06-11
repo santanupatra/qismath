@@ -1,14 +1,73 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+	<ion-toolbar>
+		<ion-grid class="p-0">
+			<ion-row>
+				<ion-col col-2 class="p-0">
+					<ion-buttons start>
+						<button ion-button menuToggle><ion-icon name="menu"></ion-icon></button>
+					</ion-buttons>
+				</ion-col>
+				<ion-col col-7 class="p-0">
+					<p class="mb-0 m-t-5 title"><img src="assets/imgs/home-logo.png" alt="" class="home-logo"></p>
+				</ion-col>
+				<ion-col col-3 class="p-0">
+					<ion-buttons end>
+						<button ion-button icon-only (click)="onSearch()"><ion-icon name="search"></ion-icon></button>
+						<button ion-button icon-only (click)="onCart()"><ion-icon name="cart"></ion-icon></button>
+					</ion-buttons>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+	</ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content>
+	<ion-slides pager class="home-slider">
+		<ion-slide style="background-image:url('../assets/imgs/home-slide-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: top center">
+			<div class="text-area">
+				<button ion-button color="primary">Buy Now</button>
+			</div>
+		</ion-slide>
+		<ion-slide style="background-image:url('../assets/imgs/home-slide-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: top center">
+			<div class="text-area">
+				<button ion-button color="primary">Buy Now</button>
+			</div>
+		</ion-slide>
+	</ion-slides>
+	
+	<ion-card class="m-0 w-100 search-bike">
+		<ion-card-content class="p-0">
+			<img src="assets/imgs/home-ad.jpg" alt="">
+		</ion-card-content>
+	</ion-card>
+
+	<ion-card class="m-0 w-100 trending-now">
+		<ion-card-content class="p-0">
+			<h2>Trending now</h2>
+			<ion-grid class="p-0">
+				<ion-row>
+					<ion-col col-8 class="pl-0">
+						<div class="trend-photo">
+							<img src="assets/imgs/ad-1.jpg" alt="">
+							<button ion-button color="light">Buy Now</button>
+						</div>
+					</ion-col>
+					<ion-col col-4 class="pr-0">
+						<div class="trend-photo" style="margin-bottom:10px">
+							<img src="assets/imgs/ad-2.jpg" alt="">
+						</div>
+						<div class="trend-photo">
+							<img src="assets/imgs/ad-3.jpg" alt="">
+						</div>
+					</ion-col>
+				</ion-row>
+			</ion-grid>
+		</ion-card-content>
+	</ion-card>
 </ion-content>

@@ -1,0 +1,28 @@
+page-searchnew {
+
+.header .toolbar-background{ border-bottom: 0;}
+.toolbar-background{ background: none;}
+
+.search-input-area{ border-radius: 3px; border: 1px solid #e1e1e1 !important; margin-bottom: 16px;}    
+.i-want{ color: #eac222; font-weight: 500; font-style: italic; margin-bottom:0; margin-top: 0;}
+.list .item-block:last-child{ border-bottom: 0; }
+ion-label{ margin: 5px 8px 5px 0 !important;}
+ion-label[fixed]{max-width:40px; min-width:40px; width:40px;}
+ion-label[fixed] .button-outline{ width: 32px; height: 32px; border-radius: 50%; }
+.list .item-block .item-inner{ border-bottom: 0 !important;}
+.brand-area{width: auto !important; margin: 0 auto; text-align: center; padding: 0; justify-content: center; flex-wrap: wrap;}
+.brand-icon{ width: 52px; height: 52px; margin: 0 auto; padding: 0; border-radius: 50%;  background: #eac222; display: flex; align-items: center; justify-content: center; color: #ffffff; font-size: 2rem;}
+.brand-area h6{ font-weight: 400; margin-top: 0.7rem;}
+
+.colour-icon{ width: 52px; height: 52px; margin: 0 auto; padding: 0; border-radius: 50%;  background: #c61408; display: flex; align-items: center; justify-content: center; color: #ffffff; font-size: 2rem;}
+.price-icon{ width: 52px; height: 52px; margin: 0 auto; padding: 0; border-radius: 50%;  background: #2370c0; display: flex; align-items: center; justify-content: center; color: #ffffff; font-size: 2rem;}
+.occasion-icon{ width: 52px; height: 52px; margin: 0 auto; padding: 0; border-radius: 50%;  background: #2b3335; display: flex; align-items: center; justify-content: center; color: #ffffff; font-size: 2rem;}
+
+.price-pic{width: 32px;}
+.cake-pic{width: 30px;}
+
+
+
+
+
+}

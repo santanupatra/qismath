@@ -1,0 +1,44 @@
+<ion-content padding class="login-bg">
+	<div class="logo">
+		<img src="assets/imgs/after-splash-logo.png" alt="">
+	</div>
+	<h5 class="page-title">Sign Up</h5>
+	
+	<form [formGroup]="rForm" novalidate>		
+		<ion-list>
+			<ion-item class="input-field">
+				<ion-input name="firstname" formControlName="firstname" type="text" value="" placeholder="First Name" required></ion-input>
+				<p *ngIf="!rForm.controls['firstname'].valid && rForm.controls['firstname'].touched" ion-text color="danger" >First Name is required </p>
+			</ion-item>
+			<ion-item class="input-field">
+				<ion-input type="text" value="" placeholder="Last Name"></ion-input>
+			</ion-item>
+			<ion-item class="input-field">
+				<ion-input type="text" value="" placeholder="Email"></ion-input>
+			</ion-item>
+			<ion-item class="input-field">
+				<ion-input type="password" value="" placeholder="Password"></ion-input>
+			</ion-item>
+			
+			<ion-item class="remember">
+				<ion-label>I would like to receive newsletter</ion-label>
+				<ion-checkbox color="light" checked="true"></ion-checkbox>
+			</ion-item>
+
+		</ion-list>
+    
+		
+					
+		<button ion-button type="submit" block round (click)="onSubmit(rForm.value)">SIGN UP</button>
+			
+		<p class="dont text-center">By creating a account, you agree to our<br> <a href="" (click)="onLogin()">Terms & Conditions</a> and <a href="">Privacy Policy</a>.</p>
+
+      
+
+    
+
+
+
+  </form>
+
+</ion-content>
